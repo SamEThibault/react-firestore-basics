@@ -3,9 +3,11 @@ import { Dropdown, Button } from 'react-bootstrap';
 import { React, useState } from 'react';
 import userQuery from '../Functions/Query.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import handleView from "../App.js";
+import {Link} from "react-router-dom";
 
-export default function Home() {
+
+
+export default function HomePage() {
     // used to call the query function from Query.js, specified using dropdown menu
     const [operation, setOperation] = useState("CREATE");
 
@@ -19,6 +21,10 @@ export default function Home() {
 
     return (
         <div className="App">
+            <nav>
+      <Link to ="/home"> Home </Link> |{" "}
+      <Link to="/viewdb">viewdb</Link>
+      </nav>
 
             <h1 className="Header">WELCOME TO THE FIRESTORE TEST PROGRAM</h1>
 
@@ -47,7 +53,6 @@ export default function Home() {
                 </Dropdown.Menu>
             </Dropdown>
 
-            {/* Use redux to onClick this button to change view */}
             <Button className="see-more-btn">
                 Click to see more!
             </Button>

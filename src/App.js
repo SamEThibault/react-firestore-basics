@@ -1,28 +1,22 @@
 import './Styles/App.css';
 import { React, useState } from 'react';
-import Home from './Views/Home.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ViewDB from "./Views/ViewDB";
-
+import HomePage from "./Views/Home";
+import ViewDBPage from "./Views/ViewDB";
+import {Link} from "react-router-dom";
 
 
 export default function App() {
 
-  const [view, setView] = useState("Home");
-
-  // use redux to make the view state global to use setView in other components
-   function handleView(viewToSet)
-  {
-    setView(viewToSet);
-  }
-
   return (
     <div>
-    {view === "Home" ? <Home/> : ""}
-    {view === "ViewDB" ? <ViewDB/> : ""}
+    <nav>
+      <Link to ="/home"> Home </Link> |{" "}
+      <Link to="/viewdb">viewdb</Link>
+      </nav>
     </div>
- 
-
-  );
+);
 }
+
+
 
