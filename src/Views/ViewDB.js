@@ -1,6 +1,6 @@
-import NavBar from "../Components/navBar.js";
+import NavBar from "../Components/NavBar.js";
 
-export default function ViewDBPage()
+export default function ViewDB()
 {
     return (
 

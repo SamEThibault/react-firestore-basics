@@ -1,12 +1,12 @@
-import '../Styles/home.css';
+import '../Styles/Home.css';
 import { Dropdown, Button } from 'react-bootstrap';
 import { React, useState } from 'react';
 import userQuery from '../Functions/Query.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from "../Components/navBar.js";
+import NavBar from "../Components/NavBar.js";
 import { useNavigate } from "react-router-dom";
 
-export default function HomePage() {
+export default function Home() {
     // used to call the query function from Query.js, specified using dropdown menu
     const [operation, setOperation] = useState("CREATE");
 
