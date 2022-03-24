@@ -1,14 +1,11 @@
-import {Link} from "react-router-dom";
+import NavBar from "../Components/navBar.js";
 
 export default function ViewDBPage()
 {
     return (
 
         <div>
-            <nav>
-      <Link to ="/home"> Home </Link> |{" "}
-      <Link to="/viewdb">viewdb</Link>
-      </nav>
+            <NavBar/>
             <h1>yoooooo</h1>
         </div>
 

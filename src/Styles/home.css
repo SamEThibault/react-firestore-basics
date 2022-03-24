@@ -1,3 +1,11 @@
+.Main
+{
+  height:935px;
+  background-image: url('https://www.pngmagic.com/product_images/website-background-image-size-psd-vector-photo.jpg');
+  color: white;
+  
+}
+
 .Header {
     position: absolute;
     left: 50%;
