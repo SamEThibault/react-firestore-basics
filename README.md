@@ -1,4 +1,7 @@
-# To Do
+# About:
+Basic CRUD application using React, Bootstrap, and Firestore 
+
+# To Do:
 - Modularize CSS for compatibility
 - Add functionality: add document fields that can be updated, created, removed, retrieved
 - Tweak nav bar to look better (maybe bootstrap option?)
