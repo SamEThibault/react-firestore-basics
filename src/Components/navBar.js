@@ -5,8 +5,8 @@ export default function NavBar() {
     return (
         <div>
             <nav className="NavBar">
-                <Link to="/home"> Home </Link> |{" "}
-                <Link to="/viewdb">viewdb</Link>
+                <Link className="NavElement" to="/home"> Home </Link> |{" "}
+                <Link className="NavElement" to="/viewdb">viewdb</Link>
             </nav>
         </div>
     )

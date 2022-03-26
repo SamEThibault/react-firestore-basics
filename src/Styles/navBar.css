@@ -1,3 +1,17 @@
 .NavBar
 {
+    background-color:darkslateblue;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+
+}
+
+.NavElement
+{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+    text-transform: uppercase;
 }
