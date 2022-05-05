@@ -9,7 +9,7 @@ export default async function userQuery(operation, userInput) {
     if (operation === "CREATE") {
         setDoc(doc(namesRef, userInput), {
             name: userInput
-           
+
         })
     }
 
