@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import "../Styles/NavBar.css";
+import "../Styles/navBar.css";
 
+// functional component to display navigation bar linked by react router
 export default function NavBar() {
     return (
         <div>

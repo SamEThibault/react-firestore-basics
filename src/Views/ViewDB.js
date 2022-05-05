@@ -1,4 +1,4 @@
-import NavBar from "../Components/NavBar.js";
+import NavBar from "../Components/navBar.js";
 import { Button } from 'react-bootstrap';
 import userQuery from '../Functions/Query.js';
 

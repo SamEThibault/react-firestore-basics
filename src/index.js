@@ -9,6 +9,7 @@ import Home from "./Views/Home";
 // more info on react router: https://reactrouter.com/docs/en/v6/getting-started/tutorial
 
 ReactDOM.render(
+  // defining router paths for navigation bar
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
