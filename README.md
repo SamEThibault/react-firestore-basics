@@ -1,5 +1,6 @@
 # About:
-Basic CRUD application using React, Bootstrap, and Firestore 
+Basic CRUD application using React, Bootstrap, and Firestore (DB backend switching to Spring Boot soon to de-clutter frontend). 
+This project aims to help others get started with implementing this tech stack by providing well-documented code with basic functionalities covered.
 
 # To Do:
 - Modularize CSS for compatibility
